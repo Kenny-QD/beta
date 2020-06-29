@@ -1,0 +1,195 @@
+[debug] [2020-06-26T19:22:31.236Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:22:31.239Z] Command:       /home/airx/.nvm/versions/node/v14.2.0/bin/node /home/airx/.nvm/versions/node/v14.2.0/bin/firebase login
+[debug] [2020-06-26T19:22:31.240Z] CLI Version:   8.4.3
+[debug] [2020-06-26T19:22:31.240Z] Platform:      linux
+[debug] [2020-06-26T19:22:31.241Z] Node Version:  v14.2.0
+[debug] [2020-06-26T19:22:31.387Z] Time:          Fri Jun 26 2020 14:22:31 GMT-0500 (Central Daylight Time)
+[debug] [2020-06-26T19:22:31.388Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:22:31.388Z] 
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=311971444&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-06-26T19:38:06.631Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+ {"code":"4/1QGyFLYZt1SWILhhB9FcJ9lQH42hFfmUf9ygHistZ16fSTzsGNIfA7LlChc25brdfHQ-ylcfB9yESbqAA1L7vCw","client_id":"563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com","client_secret":"j9iVZfS8kkCEFUPaAeJV0sAi","redirect_uri":"http://localhost:9005","grant_type":"authorization_code"}
+[debug] [2020-06-26T19:38:06.894Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 26 Jun 2020 19:38:06 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] ✔  Success! Logged in as kennyqdang@gmail.com 
+[debug] [2020-06-26T19:38:34.013Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:38:34.016Z] Command:       /home/airx/.nvm/versions/node/v14.2.0/bin/node /home/airx/.nvm/versions/node/v14.2.0/bin/firebase init
+[debug] [2020-06-26T19:38:34.017Z] CLI Version:   8.4.3
+[debug] [2020-06-26T19:38:34.017Z] Platform:      linux
+[debug] [2020-06-26T19:38:34.018Z] Node Version:  v14.2.0
+[debug] [2020-06-26T19:38:34.030Z] Time:          Fri Jun 26 2020 14:38:34 GMT-0500 (Central Daylight Time)
+[debug] [2020-06-26T19:38:34.030Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:38:34.031Z] 
+[debug] [2020-06-26T19:38:34.073Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-26T19:38:34.074Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/c/users/X/Desktop/beta
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-06-26T19:40:14.149Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-26T19:40:14.149Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-26T19:40:14.396Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 26 Jun 2020 19:40:13 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-26T19:40:14.428Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"beta-childcare","name":"beta-childcare"}
+[debug] [2020-06-26T19:40:14.708Z] <<< HTTP RESPONSE 409 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Fri, 26 Jun 2020 19:40:14 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=164","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-26T19:40:14.708Z] <<< HTTP RESPONSE BODY {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2020-06-26T19:40:14.859Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (/home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/lib/api.js:41:35)
+    at Request.self.callback (/home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:485:12)
+    at Request.<anonymous> (/home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:485:12)
+    at IncomingMessage.<anonymous> (/home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:485:12)
+    at endReadableNT (_stream_readable.js:1225:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID beta-childcare. Please try again with a unique project ID.
+[debug] [2020-06-26T19:40:29.391Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:40:29.394Z] Command:       /home/airx/.nvm/versions/node/v14.2.0/bin/node /home/airx/.nvm/versions/node/v14.2.0/bin/firebase init
+[debug] [2020-06-26T19:40:29.395Z] CLI Version:   8.4.3
+[debug] [2020-06-26T19:40:29.395Z] Platform:      linux
+[debug] [2020-06-26T19:40:29.395Z] Node Version:  v14.2.0
+[debug] [2020-06-26T19:40:29.397Z] Time:          Fri Jun 26 2020 14:40:29 GMT-0500 (Central Daylight Time)
+[debug] [2020-06-26T19:40:29.397Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:40:29.397Z] 
+[debug] [2020-06-26T19:40:29.405Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-26T19:40:29.407Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/c/users/X/Desktop/beta
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-06-26T19:40:44.893Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-06-26T19:40:45.192Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 26 Jun 2020 19:40:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project beta-childcare (beta-childcare) 
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2020-06-26T19:42:17.302Z] >>> HTTP REQUEST GET https://beta-childcare.firebaseio.com/.settings/rules.json  
+ 
+[debug] [2020-06-26T19:42:17.582Z] <<< HTTP RESPONSE 200 {"server":"nginx","date":"Fri, 26 Jun 2020 19:42:16 GMT","content-type":"application/json; charset=utf-8","content-length":"161","connection":"keep-alive","access-control-allow-origin":"*","cache-control":"no-cache","strict-transport-security":"max-age=31556926; includeSubDomains; preload"}
+[debug] [2020-06-26T19:42:17.709Z] Error: EISDIR: illegal operation on a directory, open '/mnt/c/users/X/Desktop/beta'
+    at Object.openSync (fs.js:461:3)
+    at Object.writeFileSync (fs.js:1387:35)
+    at Config.writeProjectFile (/home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/lib/config.js:155:8)
+    at /home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/lib/init/features/database.js:25:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-06-26T19:42:42.436Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:42:42.439Z] Command:       /home/airx/.nvm/versions/node/v14.2.0/bin/node /home/airx/.nvm/versions/node/v14.2.0/bin/firebase deploy
+[debug] [2020-06-26T19:42:42.440Z] CLI Version:   8.4.3
+[debug] [2020-06-26T19:42:42.440Z] Platform:      linux
+[debug] [2020-06-26T19:42:42.440Z] Node Version:  v14.2.0
+[debug] [2020-06-26T19:42:42.442Z] Time:          Fri Jun 26 2020 14:42:42 GMT-0500 (Central Daylight Time)
+[debug] [2020-06-26T19:42:42.442Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:42:42.442Z] 
+[error] 
+[error] Error: Not in a Firebase app directory (could not locate firebase.json)
+[debug] [2020-06-26T19:43:14.593Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:43:14.596Z] Command:       /home/airx/.nvm/versions/node/v14.2.0/bin/node /home/airx/.nvm/versions/node/v14.2.0/bin/firebase init
+[debug] [2020-06-26T19:43:14.596Z] CLI Version:   8.4.3
+[debug] [2020-06-26T19:43:14.597Z] Platform:      linux
+[debug] [2020-06-26T19:43:14.597Z] Node Version:  v14.2.0
+[debug] [2020-06-26T19:43:14.598Z] Time:          Fri Jun 26 2020 14:43:14 GMT-0500 (Central Daylight Time)
+[debug] [2020-06-26T19:43:14.598Z] ----------------------------------------------------------------------
+[debug] [2020-06-26T19:43:14.599Z] 
+[debug] [2020-06-26T19:43:14.607Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-26T19:43:14.608Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/c/users/X/Desktop/beta
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-06-26T19:43:24.743Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-06-26T19:43:25.027Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 26 Jun 2020 19:43:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project beta-childcare (beta-childcare) 
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2020-06-26T19:45:17.160Z] >>> HTTP REQUEST GET https://beta-childcare.firebaseio.com/.settings/rules.json  
+ 
+[debug] [2020-06-26T19:45:17.455Z] <<< HTTP RESPONSE 200 {"server":"nginx","date":"Fri, 26 Jun 2020 19:45:16 GMT","content-type":"application/json; charset=utf-8","content-length":"161","connection":"keep-alive","access-control-allow-origin":"*","cache-control":"no-cache","strict-transport-security":"max-age=31556926; includeSubDomains; preload"}
+[debug] [2020-06-26T19:45:17.585Z] Error: EISDIR: illegal operation on a directory, open '/mnt/c/users/X/Desktop/beta/public'
+    at Object.openSync (fs.js:461:3)
+    at Object.writeFileSync (fs.js:1387:35)
+    at Config.writeProjectFile (/home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/lib/config.js:155:8)
+    at /home/airx/.nvm/versions/node/v14.2.0/lib/node_modules/firebase-tools/lib/init/features/database.js:25:23
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
